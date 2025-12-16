@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chorfah Thai Massage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // Defining a Custom Pastel Mint/Green as Primary
+              primary: {
+                50: '#f0fdf9', // Very light mint
+                100: '#ccfbf1', // Mint water
+                200: '#99f6e4', // Pastel Mint
+                300: '#5eead4', // Bright Mint
+                400: '#2dd4bf', // Teal/Green mix
+                500: '#14b8a6', // Main Brand Color (Soft Teal/Green)
+                600: '#0d9488', // Hover state
+                700: '#0f766e',
+                800: '#115e59',
+                900: '#134e4a',
+              },
+              // Adding a specific pastel blue just in case, though we can use sky-xxx
+              pastelBlue: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                200: '#bae6fd',
+                300: '#7dd3fc',
+                400: '#38bdf8',
+                500: '#0ea5e9',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for timeline */
+      .timeline-scroll::-webkit-scrollbar {
+        height: 8px;
+      }
+      .timeline-scroll::-webkit-scrollbar-track {
+        background: rgba(255,255,255,0.5);
+      }
+      .timeline-scroll::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      .timeline-scroll::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.6.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <div id="root"></div>
+  </body>
+</html>
